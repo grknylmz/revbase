@@ -12,6 +12,11 @@
       <div id="navMenuIndex" class="navbar-menu">
         <div class="navbar-start">
           <a class="navbar-item bd-navbar-item-documentation has-text-weight-semibold">
+            <router-link to="/">
+              <span class="has-text-danger">Home</span>
+            </router-link>
+          </a>
+          <a class="navbar-item bd-navbar-item-documentation has-text-weight-semibold">
             <router-link to="/trending">
               <span class="has-text-danger">Trending</span>
             </router-link>

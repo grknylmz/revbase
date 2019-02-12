@@ -1,13 +1,14 @@
 <template>
   <div class="container">
-    <section class="section">
-      <CategoryCloud/>
-    </section>
     <div class="columns">
       <div class="column is-one-quarter">
         <LeftPanel/>
       </div>
       <div class="column">
+        <CreateRev/>
+        <Feed/>
+        <Feed/>
+        <Feed/>
         <Feed/>
       </div>
       <div class="column is-one-quarter">
@@ -19,17 +20,17 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import CategoryCloud from "@/components/CategoryCloud.vue";
 import Feed from "@/components/Feed.vue";
 import LeftPanel from "@/components/LeftPanel.vue";
 import RightPanel from "@/components/RightPanel.vue";
+import CreateRev from "@/components/CreateRev.vue";
 
 @Component({
   components: {
-    CategoryCloud,
     LeftPanel,
     Feed,
-    RightPanel
+    RightPanel,
+    CreateRev
   }
 })
 export default class Home extends Vue {}
