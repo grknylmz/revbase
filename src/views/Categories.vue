@@ -13,16 +13,7 @@ export default class Categories extends Vue {
   constructor() {
     super();
   }
-  mounted() {
-    this.getCategories();
-  }
-  getCategories() {
-    /*
-    axios
-      .get(endpoints.getCategory)
-      .then(response => (this.response = response))
-      .catch(() => console.log("Can’t access response. Blocked by browser?"));
-      */
-  }
+  mounted() {}
+  getCategories() {}
 }
 </script>
