@@ -26,15 +26,8 @@ export default class Subject {
   }
 
   public postCreateReview(): void {
-    debugger;
-
-    axios
-      .post(postReview, this.getJSON())
-      .then((response) => {
-        console.log(response);
-      })
-      .catch((e) => {
-        console.log(e);
-      });
+    axios.post(postReview, this.getJSON()).catch((e) => {
+      console.log(e);
+    });
   }
 }

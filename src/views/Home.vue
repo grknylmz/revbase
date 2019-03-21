@@ -7,9 +7,6 @@
       <div class="column">
         <CreateRev/>
         <Feed/>
-        <Feed/>
-        <Feed/>
-        <Feed/>
       </div>
       <div class="column is-one-quarter">
         <RightPanel/>

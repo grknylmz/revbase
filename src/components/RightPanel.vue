@@ -2,21 +2,11 @@
   <div class="tile">
     <div class="tile is-parent">
       <article class="tile is-child box is-primary">
-        <p class="title">Right Section</p>
+        <p class="title has-text-right">Followed Tags</p>
         <p class="subtitle">Top tile</p>
         <div class="content has-text-left">
-          <p>- Content</p>
-          <p>- Content</p>
-          <p>- Content</p>
-          <p>- Content</p>
-          <p>- Content</p>
-          <p>- Content</p>
-          <p>- Content</p>
-          <p>- Content</p>
-          <p>- Content</p>
-          <p>- Content</p>
-          <p>- Content</p>
-          <p>- Content</p>
+          <p>#iphone</p>
+          <p>#vacation</p>
         </div>
       </article>
     </div>
